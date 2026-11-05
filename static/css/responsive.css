@@ -1,0 +1,211 @@
+
+/* =================================
+   DAILYTASK - RESPONSIVE DESIGN
+================================= */
+
+/* TABLETS */
+
+@media (max-width: 1100px) {
+
+    .sidebar {
+        width: 220px;
+        padding: 25px 17px;
+    }
+
+    .main-content {
+        padding: 35px 30px;
+    }
+
+}
+
+/* SMALL TABLETS */
+
+@media (max-width: 800px) {
+
+    .sidebar {
+        width: 190px;
+    }
+
+    .main-content {
+        padding: 25px 20px;
+    }
+
+    .stats-grid {
+        gap: 12px;
+    }
+
+    .stat-card {
+        padding: 18px;
+    }
+
+    .welcome-section {
+        padding: 28px;
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    .app-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+
+        padding: 17px;
+
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+        margin-bottom: 17px;
+    }
+
+    .menu-label,
+    .sidebar-bottom {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 7px;
+
+        overflow-x: auto;
+        padding-bottom: 5px;
+    }
+
+    .nav-item {
+        width: auto;
+        white-space: nowrap;
+
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .nav-item span {
+        width: auto;
+        margin-right: 5px;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 25px 16px;
+    }
+
+    .topbar {
+        margin-bottom: 25px;
+    }
+
+    .topbar h1 {
+        font-size: 23px;
+    }
+
+    .welcome-section {
+        padding: 25px 20px;
+    }
+
+    .welcome-section h2 {
+        font-size: 23px;
+    }
+
+    .welcome-section p:last-child {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 11px;
+    }
+
+    .stat-card {
+        padding: 17px;
+    }
+
+    .stat-card h2 {
+        font-size: 25px;
+    }
+
+    .progress-card {
+        padding: 19px;
+    }
+
+    .section-header {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .section-header h2 {
+        font-size: 18px;
+    }
+
+    .section-header p {
+        font-size: 11px;
+    }
+
+    .add-button {
+        padding: 11px 13px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .task-card {
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 11px;
+    }
+
+    .task-info {
+        flex: 1;
+    }
+
+    .priority {
+        margin-left: 29px;
+    }
+
+    .task-actions {
+        margin-left: auto;
+    }
+
+    .task-form {
+        padding: 17px;
+    }
+
+}
+
+/* VERY SMALL MOBILE */
+
+@media (max-width: 380px) {
+
+    .main-content {
+        padding: 20px 12px;
+    }
+
+    .logo h2 {
+        font-size: 19px;
+    }
+
+    .nav-item {
+        padding: 9px;
+        font-size: 11px;
+    }
+
+    .welcome-section h2 {
+        font-size: 20px;
+    }
+
+    .section-header {
+        flex-wrap: wrap;
+    }
+
+    .task-actions button {
+        width: 32px;
+        height: 32px;
+    }
+
+}
